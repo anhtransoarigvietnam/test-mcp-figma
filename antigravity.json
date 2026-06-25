@@ -1,0 +1,22 @@
+{
+  "settings": {
+    "agent_mode": "advanced",
+    "progressive_context": true
+  },
+  "skills": [
+    { "name": "project structure", "path": "skills/skill_01_project_structure.md", "enabled": true }
+,
+    { "name": "bloc cubit", "path": "skills/skill_02_bloc_cubit.md", "enabled": true }
+,
+    { "name": "data layer", "path": "skills/skill_03_data_layer.md", "enabled": true }
+,
+    { "name": "routing", "path": "skills/skill_04_routing.md", "enabled": true }
+,
+    { "name": "widget ui", "path": "skills/skill_05_widget_ui.md", "enabled": true }
+,
+    { "name": "theme", "path": "skills/skill_06_theme.md", "enabled": true }
+,
+    { "name": "testing", "path": "skills/skill_07_testing.md", "enabled": true }
+
+  ]
+}

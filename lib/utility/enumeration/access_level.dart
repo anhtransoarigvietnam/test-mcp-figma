@@ -1,0 +1,1 @@
+enum AccessLevel { free, pro }

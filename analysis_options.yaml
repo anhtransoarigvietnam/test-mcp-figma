@@ -1,0 +1,31 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - "**.g.dart"
+    
+  errors:
+    unused_import: warning
+    dead_code: warning
+    included_file_warning: ignore
+
+linter:
+  rules:
+    # === Code Style ===
+    avoid_print: true
+    always_use_package_imports: true
+    prefer_typing_uninitialized_variables: true
+    prefer_const_constructors: true
+    prefer_single_quotes: true
+
+    # === Readability & Naming ===
+    file_names: true
+    always_declare_return_types: true
+
+    # === Flutter Specific ===
+    sort_child_properties_last: true
+    sized_box_for_whitespace: true
+    avoid_unnecessary_containers: true
+
+# Additional information about this file can be found at
+# https://dart.dev/guides/language/analysis-options

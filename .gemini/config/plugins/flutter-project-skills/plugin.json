@@ -1,0 +1,10 @@
+{
+  "name": "flutter-project-skills",
+  "version": "1.0.0",
+  "description": "Local Flutter skills and conventions for this project.",
+  "author": {
+    "name": "Developer"
+  },
+  "license": "MIT",
+  "keywords": ["flutter", "project-skills"]
+}

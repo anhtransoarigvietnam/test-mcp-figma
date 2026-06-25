@@ -1,0 +1,38 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+NetworkResponse _$NetworkResponseFromJson(Map<String, dynamic> json) =>
+    NetworkResponse(
+      data: json['data'],
+      error: json['error'] == null
+          ? null
+          : NetworkErrorResponse.fromJson(
+              json['error'] as Map<String, dynamic>,
+            ),
+      pagination: json['pagination'] == null
+          ? null
+          : NetworkPaginationResponse.fromJson(
+              json['pagination'] as Map<String, dynamic>,
+            ),
+      meta: json['meta'] as Map<String, dynamic>?,
+    );
+
+NetworkPaginationResponse _$NetworkPaginationResponseFromJson(
+  Map<String, dynamic> json,
+) => NetworkPaginationResponse(
+  total: (json['total'] as num?)?.toInt(),
+  totalPages: (json['total_pages'] as num?)?.toInt(),
+  page: (json['page'] as num?)?.toInt(),
+  pageSize: (json['page_size'] as num?)?.toInt(),
+  next: json['next'] as String?,
+  previous: json['previous'] as String?,
+);
+
+NetworkErrorResponse _$NetworkErrorResponseFromJson(
+  Map<String, dynamic> json,
+) => NetworkErrorResponse(
+  type: json['type'] as String?,
+  message: json['message'] as String?,
+  fields: json['fields'] as Map<String, dynamic>?,
+);

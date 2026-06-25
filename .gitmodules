@@ -1,0 +1,3 @@
+[submodule "skill"]
+	path = skill
+	url = github.com:anhtransoarigvietnam/flutter_skill.git

@@ -1,0 +1,1 @@
+ /Users/anhtran/Desktop/Code/Flutter/test-mcp-figma/lib/presentation/l10n/app_localizations_en.dart /Users/anhtran/Desktop/Code/Flutter/test-mcp-figma/lib/presentation/l10n/app_localizations.dart:  /Users/anhtran/Desktop/Code/Flutter/test-mcp-figma/l10n.yaml /Users/anhtran/Desktop/Code/Flutter/test-mcp-figma/lib/presentation/l10n/app_en.arb

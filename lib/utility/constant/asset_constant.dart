@@ -12,7 +12,7 @@ class AssetConstant {
 class _AssetIcon {
   const _AssetIcon._();
 
-  static const _basePath = 'asset/icon';
+  // static const _basePath = 'asset/icon';
 
   // TODO: Add asset icon
 }
@@ -20,8 +20,7 @@ class _AssetIcon {
 class _AssetImage {
   const _AssetImage._();
 
-  static const _basePath = 'asset/image';
+  // static const _basePath = 'asset/image';
 
   // TODO: Add asset image
 }
-

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:test_mcp_figma/presentation/common/widget/common_button.dart';
 import 'package:test_mcp_figma/presentation/theme/app_colors_palette.dart';
 import 'package:test_mcp_figma/presentation/theme/app_text_palette.dart';
-import 'package:test_mcp_figma/utility/constant/asset_constant.dart';
+
 
 /// A common app bar with a back button, and a String for child
 class CommonAppBar extends StatelessWidget implements PreferredSizeWidget {

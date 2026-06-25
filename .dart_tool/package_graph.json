@@ -18,6 +18,7 @@
         "go_router",
         "injectable",
         "injectable_generator",
+        "json_annotation",
         "package_info_plus",
         "retrofit",
         "shared_preferences",
@@ -126,6 +127,13 @@
       ]
     },
     {
+      "name": "json_annotation",
+      "version": "4.12.0",
+      "dependencies": [
+        "meta"
+      ]
+    },
+    {
       "name": "retrofit",
       "version": "4.9.2",
       "dependencies": [
@@ -195,7 +203,7 @@
     },
     {
       "name": "injectable_generator",
-      "version": "3.1.0",
+      "version": "3.0.2",
       "dependencies": [
         "analyzer",
         "build",
@@ -318,7 +326,7 @@
     },
     {
       "name": "dart_style",
-      "version": "3.1.9",
+      "version": "3.1.7",
       "dependencies": [
         "analyzer",
         "args",
@@ -360,7 +368,7 @@
     },
     {
       "name": "analyzer",
-      "version": "13.0.0",
+      "version": "10.0.1",
       "dependencies": [
         "_fe_analyzer_shared",
         "collection",
@@ -409,15 +417,8 @@
     },
     {
       "name": "meta",
-      "version": "1.18.0",
+      "version": "1.17.0",
       "dependencies": []
-    },
-    {
-      "name": "json_annotation",
-      "version": "4.12.0",
-      "dependencies": [
-        "meta"
-      ]
     },
     {
       "name": "build_config",
@@ -652,7 +653,7 @@
     },
     {
       "name": "matcher",
-      "version": "0.12.19",
+      "version": "0.12.17",
       "dependencies": [
         "async",
         "meta",
@@ -663,7 +664,7 @@
     },
     {
       "name": "test_api",
-      "version": "0.7.11",
+      "version": "0.7.7",
       "dependencies": [
         "async",
         "boolean_selector",
@@ -801,10 +802,9 @@
     },
     {
       "name": "shared_preferences_android",
-      "version": "2.4.26",
+      "version": "2.4.23",
       "dependencies": [
         "flutter",
-        "meta",
         "shared_preferences_platform_interface"
       ]
     },
@@ -815,7 +815,7 @@
     },
     {
       "name": "lean_builder",
-      "version": "1.2.0",
+      "version": "0.1.10",
       "dependencies": [
         "_fe_analyzer_shared",
         "analyzer",
@@ -903,7 +903,7 @@
     },
     {
       "name": "url_launcher_android",
-      "version": "6.3.32",
+      "version": "6.3.30",
       "dependencies": [
         "flutter",
         "meta",
@@ -946,14 +946,14 @@
     },
     {
       "name": "material_color_utilities",
-      "version": "0.13.0",
+      "version": "0.11.1",
       "dependencies": [
         "collection"
       ]
     },
     {
       "name": "characters",
-      "version": "1.4.1",
+      "version": "1.4.0",
       "dependencies": []
     },
     {
@@ -972,7 +972,7 @@
     },
     {
       "name": "_fe_analyzer_shared",
-      "version": "100.0.0",
+      "version": "93.0.0",
       "dependencies": [
         "meta",
         "source_span"
